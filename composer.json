@@ -1,0 +1,12 @@
+{
+    "name": "maioradv/admin2-cdn",
+    "description": "CDN Admin2",
+    "license": "MIT",
+    "keywords": [],
+    "authors": [
+        {
+            "name": "Maior ADV",
+            "email": "info@maioradv.com"
+        }
+    ]
+}
