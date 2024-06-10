@@ -1,0 +1,14 @@
+table#datatable_296 td:nth-child(4), table#datatable_296 th:nth-child(4) {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+}
+table#datatable_296 th:nth-child(4) {
+   z-index:1;
+}
+table#datatable_296 tr.odd td:nth-child(4) {
+	background-color: #f9f9f9;
+}
+table#datatable_296 tr.even td:nth-child(4), table#datatable_296 tr.filter td:nth-child(4) {
+	background-color: #ffffff;
+}

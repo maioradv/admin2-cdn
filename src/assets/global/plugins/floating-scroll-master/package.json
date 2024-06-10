@@ -1,0 +1,40 @@
+{
+  "name": "floating-scroll",
+  "version": "3.0.2",
+  "description": "A lightweight jQuery plugin providing floating scrollbar functionality",
+  "main": "src/jquery.floatingscroll.js",
+  "style": "src/jquery.floatingscroll.css",
+  "scripts": {
+    "lint": "eslint src/jquery.floatingscroll.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c && lessc --clean-css=\"--compatibility=ie8 --advanced\" src/jquery.floatingscroll.less dist/jquery.floatingscroll.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Amphiluke/floating-scroll.git"
+  },
+  "keywords": [
+    "scrollbar",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "author": "Amphiluke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Amphiluke/floating-scroll/issues"
+  },
+  "homepage": "https://amphiluke.github.io/floating-scroll/",
+  "dependencies": {
+    "jquery": ">=1.4.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "less": "^3.0.2",
+    "less-plugin-clean-css": "^1.5.1",
+    "rollup": "^0.58.2",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-uglify": "^3.0.0"
+  }
+}

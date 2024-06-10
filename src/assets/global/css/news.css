@@ -1,0 +1,10 @@
+@media only screen and (min-width: 1690px){
+	.container {
+    	width: 1660px;
+	}
+}
+
+.elenco_news .media-heading{
+	cursor:pointer;
+	font-weight:bold;
+}

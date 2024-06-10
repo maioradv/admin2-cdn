@@ -8,5 +8,11 @@
             "name": "Maior ADV",
             "email": "info@maioradv.com"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Maior\\Admin2\\": "src/"
+        }
+    }
 }
