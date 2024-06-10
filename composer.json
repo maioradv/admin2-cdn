@@ -9,7 +9,7 @@
             "email": "info@maioradv.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Maior\\Admin2\\": "src/"
